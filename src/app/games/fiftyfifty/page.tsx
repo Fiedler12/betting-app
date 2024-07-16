@@ -1,7 +1,9 @@
-
+import ActionButton from "@/app/components/actionbutton";
 
 export default function FiftyFifty() {
-    return(
-        <h1>Fifty fifty</h1>
-    )
+  return (
+    <div>
+      <h1>Fifty fifty</h1>
+    </div>
+  );
 }
