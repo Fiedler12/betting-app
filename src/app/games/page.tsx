@@ -36,6 +36,15 @@ export default function Home() {
               problem.
             </p>
           </li>
+          <li
+            className="px-6 py-4"
+            onClick={(e) => handleReroute(e, "/games/dice")}
+          >
+            <div className="flex justify-between">
+              <span className="font-semibold text-lg">Terning</span>
+            </div>
+            <p className="text-gray-700">Mangler du en hurtig terning?</p>
+          </li>
         </ul>
       </div>
     </div>
